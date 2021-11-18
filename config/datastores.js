@@ -48,8 +48,8 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+    adapter: 'sails-postgresql',
+    url: 'postgresql://uu3yjnq5lljajon2xo2l:doz7tIdqIoW7tWzNq668@b71xj1njdya0wncwzljv-postgresql.services.clever-cloud.com:5432/b71xj1njdya0wncwzljv',
 
   },
 
