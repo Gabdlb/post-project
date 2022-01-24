@@ -3,18 +3,18 @@ module.exports = {
   attributes: {
 
       id: {
-        type: String,
+        type: 'string',
         required: true,
         columnName: 'id',
       },
 
       title: {
-        type: String,
+        type: 'string',
         columnName: 'titre',
       },
 
       text : {
-        type: String,
+        type: 'string',
         columnName: 'texte',
       }
 

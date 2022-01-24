@@ -3,13 +3,13 @@ module.exports = {
   attributes: {
 
     id: {
-      type: String,
+      type: 'string',
       required: true,
       columnName: 'id',
     },
 
     text: {
-      type: String,
+      type: 'string',
       columnName: 'texte',
     },
 
